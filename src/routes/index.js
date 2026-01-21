@@ -4,10 +4,10 @@ import ChatsWithSupport from "../pages/ChatsWithSupport/ChatsWithSupport";
 import ChatsWithCustomers from "../pages/ChatsWithCustomers/ChatsWithCustomers";
 
 export const privateRouters = [
-    { path: '/', element: Feed },
-    { path: '/feed', element: Feed },
+  { path: "/", element: Feed },
+  { path: "/feed", element: Feed },
 
-    { path: '/reviews', element: Reviews },
-    { path: '/chatsWithSupport', element: ChatsWithSupport },
-    { path: '/chatsWithCustomers', element: ChatsWithCustomers },
+  { path: "/reviews", element: Reviews },
+  { path: "/chatsWithSupport", element: ChatsWithSupport },
+  { path: "/chatsWithCustomers", element: ChatsWithCustomers },
 ];

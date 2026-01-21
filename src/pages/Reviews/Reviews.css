@@ -1,318 +1,385 @@
 .reviews-container {
-    padding: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    max-width: 1200px;
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 1200px;
 }
 
 .reviews-container h2 {
-    text-align: center;
-    color: #333;
-    margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
 }
 
 .filters {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-bottom: 20px;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
 }
 
 .filters button {
-    padding: 8px 16px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    background-color: white;
-    cursor: pointer;
-    transition: all 0.3s ease;
+  padding: 8px 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .filters button:hover {
-    background-color: #f0f0f0;
+  background-color: #f0f0f0;
 }
 
 .filters button.active {
-    background-color: #007bff;
-    color: white;
-    border-color: #007bff;
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
 }
 
 .reviews-list {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-height: 100px;
 }
 
 .review-card {
-    display: flex;
-    align-items: flex-start;
-    gap: 20px;
-    padding: 20px;
-    border: 1px solid #eee;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
 }
 
 .review-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 .product-info {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    min-width: 200px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  min-width: 200px;
 }
 
 .product-img {
-    width: 80px;
-    height: 80px;
-    object-fit: cover;
-    border-radius: 6px;
-    border: 1px solid #ddd;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid #ddd;
 }
 
 .product-info h3 {
-    margin: 0;
-    font-size: 16px;
-    color: #333;
+  margin: 0;
+  font-size: 16px;
+  color: #333;
 }
 
 .rating {
-    color: #ff9900;
-    font-size: 18px;
-    margin-top: 5px;
-    letter-spacing: 1px;
+  color: #ff9900;
+  font-size: 18px;
+  margin-top: 5px;
+  letter-spacing: 1px;
 }
 
 .review-content {
-    flex: 1;
-    max-width: 600px;
+  flex: 1;
+  max-width: 600px;
 }
 
 .review-text {
-    font-style: italic;
-    color: #555;
-    line-height: 1.5;
-    margin: 0 0 10px 0;
+  font-style: italic;
+  color: #555;
+  line-height: 1.5;
+  margin: 0 0 10px 0;
 }
 
 .reviews-container {
-    padding: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    max-width: 1200px;
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 1200px;
 }
 
 .reviews-container h2 {
-    text-align: center;
-    color: #333;
-    margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
 }
 
 .filters {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-bottom: 20px;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
 }
 
 .filters button {
-    padding: 8px 16px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    background-color: white;
-    cursor: pointer;
-    transition: all 0.3s ease;
+  padding: 8px 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .filters button:hover {
-    background-color: #f0f0f0;
+  background-color: #f0f0f0;
 }
 
 .filters button.active {
-    background-color: #007bff;
-    color: white;
-    border-color: #007bff;
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
 }
 
 .reviews-list {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .review-card {
-    display: flex;
-    align-items: flex-start;
-    gap: 20px;
-    padding: 20px;
-    border: 1px solid #eee;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
 }
 
 .review-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 .product-info {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    min-width: 200px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  min-width: 200px;
 }
 
 .product-img {
-    width: 80px;
-    height: 80px;
-    object-fit: cover;
-    border-radius: 6px;
-    border: 1px solid #ddd;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid #ddd;
 }
 
 .product-info h3 {
-    margin: 0;
-    font-size: 16px;
-    color: #333;
+  margin: 0;
+  font-size: 16px;
+  color: #333;
 }
 
 .rating {
-    color: #ff9900;
-    font-size: 18px;
-    margin-top: 5px;
-    letter-spacing: 1px;
+  color: #ff9900;
+  font-size: 18px;
+  margin-top: 5px;
+  letter-spacing: 1px;
 }
 
 .review-content {
-    flex: 1;
-    max-width: 600px;
+  flex: 1;
+  max-width: 600px;
 }
 
 .review-text {
-    font-style: italic;
-    color: #555;
-    line-height: 1.5;
-    margin: 0 0 10px 0;
+  font-style: italic;
+  color: #555;
+  line-height: 1.5;
+  margin: 0 0 10px 0;
 }
 
 .review-date {
-    color: #888;
-    font-size: 0.9em;
-    margin: 5px 0;
+  color: #888;
+  font-size: 0.9em;
+  margin: 5px 0;
 }
 
 .review-status {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .status {
-    display: inline-block;
-    padding: 4px 8px;
-    border-radius: 12px;
-    font-size: 0.8em;
-    font-weight: bold;
-    text-transform: lowercase;
-    margin-right: 10px;
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 0.8em;
+  font-weight: bold;
+  text-transform: lowercase;
+  margin-right: 10px;
 }
 
 .status.отвечен {
-    background-color: #d4edda;
-    color: #155724;
+  background-color: #d4edda;
+  color: #155724;
 }
 
 .status.не\ отвечен {
-    background-color: #fff3cd;
-    color: #856404;
+  background-color: #fff3cd;
+  color: #856404;
 }
 
 .reply {
-    margin-top: 8px;
-    padding: 8px;
-    background-color: #f8f9fa;
-    border-left: 3px solid #007bff;
-    font-size: 0.9em;
-    color: #495057;
+  margin-top: 8px;
+  padding: 8px;
+  background-color: #f8f9fa;
+  border-left: 3px solid #007bff;
+  font-size: 0.9em;
+  color: #495057;
 }
 
 .actions {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    margin-left: auto;
-    align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-left: auto;
+  align-self: flex-start;
 }
 
 .btn-reply,
 .btn-hide {
-    padding: 8px 16px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 0.9em;
-    font-weight: 500;
-    transition: background-color 0.3s, transform 0.1s;
-    outline: none;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9em;
+  font-weight: 500;
+  transition:
+    background-color 0.3s,
+    transform 0.1s;
+  outline: none;
 }
 
 .btn-reply {
-    background-color: #28a745;
-    color: white;
+  background-color: #28a745;
+  color: white;
 }
 
 .btn-hide {
-    background-color: #dc3545;
-    color: white;
+  background-color: #dc3545;
+  color: white;
 }
 
 .btn-reply:hover {
-    background-color: #218837;
-    transform: translateY(-1px);
+  background-color: #218837;
+  transform: translateY(-1px);
 }
 
 .btn-hide:hover {
-    background-color: #c82333;
-    transform: translateY(-1px);
+  background-color: #c82333;
+  transform: translateY(-1px);
 }
 
 .btn-reply:active,
 .btn-hide:active {
-    transform: translateY(0);
+  transform: translateY(0);
 }
 
 .reply-form {
-    width: 100%;
-    margin-top: 8px;
+  width: 100%;
+  margin-top: 8px;
 }
 
 .reply-form textarea {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    resize: vertical;
-    font-size: 14px;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  resize: vertical;
+  font-size: 14px;
 }
 
 .reply-buttons {
-    display: flex;
-    gap: 8px;
-    margin-top: 8px;
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
 }
 
 .reply-buttons button {
-    padding: 6px 12px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 14px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
 }
 
 .reply-buttons button:first-child {
-    background-color: #007bff;
-    color: white;
+  background-color: #007bff;
+  color: white;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 20px 0;
+  padding: 0 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pagination-button {
+  min-width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  transition: all 0.2s ease;
+  color: #333;
+}
+
+.pagination-button:hover:not(.active) {
+  background-color: #f5f5f5;
+  border-color: #ccc;
+  transform: translateY(-1px);
+}
+
+.pagination-button.active {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #0056b3;
+  font-weight: 500;
+}
+
+.pagination-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.pagination-gap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 36px;
+  height: 36px;
+  padding: 0 8px;
+  color: #6c757d;
+  font-size: 14px;
+  font-weight: 500;
+  opacity: 0.8;
 }
