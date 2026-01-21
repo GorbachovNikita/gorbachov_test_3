@@ -1,0 +1,17 @@
+
+.header {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    background: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    top: 0;
+}
+
+.header .account-info {
+    background: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+}

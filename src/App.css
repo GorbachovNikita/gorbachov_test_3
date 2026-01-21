@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: Arial, serif;
+  font-size: 16px;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.feed-container, .reviews-container, .support-chats-container, .chats-container {
+  margin-top: 80px;
+}
